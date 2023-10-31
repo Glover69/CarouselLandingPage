@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Poppins font
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: local("Poppins SemiBold"),
+      url("assets/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Poppins-Regular";
+    src: local("Poppins Regular"),
+      url("assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Poppins-Light";
+    src: local("Poppins Light"),
+      url("assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: local("Poppins Bold"),
+      url("assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: local("Poppins Medium"),
+      url("assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  }
+  
+  
+  
+  
+  // SF Pro Display font
+  
+  @font-face {
+    font-family: "SF-Regular";
+    src: local("SF Regular"),
+      url("/assets/fonts/SF/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  }
+  
+  
+  @font-face {
+    font-family: "SF-Bold";
+    src: local("SF Bold"),
+      url("/assets/fonts/SF/SFPRODISPLAYBOLD.OTF") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "SF-Medium";
+    src: local("SF Medium"),
+      url("/assets/fonts/SF/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+  }
